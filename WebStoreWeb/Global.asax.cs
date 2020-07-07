@@ -25,8 +25,8 @@ namespace WebStoreWeb
             ContainerConfig.RegisterContainer(GlobalConfiguration.Configuration);
 
             //Enabling corsss
-            EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "*");
             //EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "*");
+            EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "*");
         }
     }
 }
