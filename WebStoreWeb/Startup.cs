@@ -12,6 +12,7 @@ namespace WebStoreWeb
     {
         public void Configuration(IAppBuilder app)
         {
+            //Add Owin Cors to use Owin Api outside the localhost
             app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
             ConfigureAuth(app);
         }
