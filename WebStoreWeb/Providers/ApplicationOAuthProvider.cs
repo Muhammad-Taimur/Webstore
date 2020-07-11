@@ -44,7 +44,8 @@ namespace WebStoreWeb.Providers
             ClaimsIdentity cookiesIdentity = await user.GenerateUserIdentityAsync(userManager,
                 CookieAuthenticationDefaults.AuthenticationType);
 
-            AuthenticationProperties properties = CreateProperties(user.UserName, user.FirstName+ " "+user.LastName );
+            //Adding Full Name in Token  Reply
+            AuthenticationProperties properties = CreateProperties(user.UserName, user.FirstName+ " " + user.LastName);
            
             AuthenticationTicket ticket = new AuthenticationTicket(oAuthIdentity, properties);
             context.Validated(ticket);
@@ -58,6 +59,7 @@ namespace WebStoreWeb.Providers
                 context.AdditionalResponseParameters.Add(property.Key, property.Value);
             }
 
+            //Adding User ID in Token Reply
             context.AdditionalResponseParameters.Add("userID", context.Identity.GetUserId());
             
             return Task.FromResult<object>(null);
