@@ -15,7 +15,7 @@ namespace WebStoreWeb.Models
         public int ProductId { get; set; }
         public string ImageName { get; set; }
         public string ImagePath { get; set; }
-        public byte[]  ImageBinray{ get; set; }
+       // public byte[]  ImageBinray{ get; set; }
 
         public virtual Product Product { get; set; }
     }

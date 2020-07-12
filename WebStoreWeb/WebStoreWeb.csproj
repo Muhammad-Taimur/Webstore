@@ -279,6 +279,10 @@
     <Compile Include="Migrations\202007061243410_Removing Orde Icollection fromPoduct..Designer.cs">
       <DependentUpon>202007061243410_Removing Orde Icollection fromPoduct..cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202007121730031_Remove Image Binary Table.cs" />
+    <Compile Include="Migrations\202007121730031_Remove Image Binary Table.Designer.cs">
+      <DependentUpon>202007121730031_Remove Image Binary Table.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -415,6 +419,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202007061243410_Removing Orde Icollection fromPoduct..resx">
       <DependentUpon>202007061243410_Removing Orde Icollection fromPoduct..cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007121730031_Remove Image Binary Table.resx">
+      <DependentUpon>202007121730031_Remove Image Binary Table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

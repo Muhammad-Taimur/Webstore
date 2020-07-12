@@ -129,7 +129,7 @@ namespace WebStoreWeb.Controllers
 
 
                     productBlob.ImageName = newfileName;
-                    productBlob.ImageBinray = blobByte;
+                    //productBlob.ImageBinray = blobByte;
                     productBlob.ImagePath = root + "\\" + newfileName; 
 
                     db.ProductsBlob.Add(productBlob);
