@@ -406,7 +406,11 @@ namespace WebStoreWeb.Controllers
                 {
                     foreach (string error in result.Errors)
                     {
-                        ModelState.AddModelError("", error);
+                        ModelState.AddModelError("error", error);
+                        //ModelState.AddModelError("error", "Passwords must have at least one non letter or digit character. Passwords must have at least one digit ('0'-'9').");
+                        //ModelState.AddModelError("error", "The Fist Name field and Last Name field is required");
+
+
                     }
                 }
 
