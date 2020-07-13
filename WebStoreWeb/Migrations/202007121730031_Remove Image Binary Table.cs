@@ -12,7 +12,7 @@ namespace WebStoreWeb.Migrations
         
         public override void Down()
         {
-            AddColumn("dbo.ProductBlobs", "ImageBinray", c => c.Binary());
+            AddColumn("dbo.ProductBlobs", "ImageBinray", c => c.Binary());//
         }
     }
 }
