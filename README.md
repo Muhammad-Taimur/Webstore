@@ -3,8 +3,7 @@
 
 Webstore is a web application storing the and providing the user's input data to front end in JSON format Web Api. Using SQL server/SQL Relational DB to store data.
 
-<img src="https://user-images.githubusercontent.com/27746978/90336630-00a40a00-dfd5-11ea-80af-26a7a4eaa524.png"> 
-<img src="https://user-images.githubusercontent.com/27746978/90336740-b8391c00-dfd5-11ea-8135-83db2d3a5d1a.png">
+<img src="https://miro.medium.com/max/1200/1*LJsJxHgRQeuGvBgTacBWag.png"> 
 
 ## Features:
 * Register new user.
@@ -12,6 +11,9 @@ Webstore is a web application storing the and providing the user's input data to
 * Performing CRUD operation to Product and Order API. 
 * User can post multiple images in backed along with single product.
 * Restful API using MV design pattern. 
+
+<img src="https://user-images.githubusercontent.com/27746978/90336630-00a40a00-dfd5-11ea-80af-26a7a4eaa524.png"> 
+<img src="https://user-images.githubusercontent.com/27746978/90336740-b8391c00-dfd5-11ea-8135-83db2d3a5d1a.png">
 
 
 ## Used libraries:
