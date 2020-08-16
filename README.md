@@ -3,7 +3,7 @@
 
 Webstore is a web application storing the and providing the user's input data to front end in JSON format Web Api. Using SQL server/SQL Relational DB to store data.
 
-<img src="https://miro.medium.com/max/1200/1*LJsJxHgRQeuGvBgTacBWag.png"> 
+<img src="https://miro.medium.com/max/1200/1*LJsJxHgRQeuGvBgTacBWag.png" heigth="50%" width="50%" align="center"> 
 
 ## Features:
 * Register new user.
